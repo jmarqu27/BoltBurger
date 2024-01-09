@@ -1,0 +1,10 @@
+.bg-img {
+    background-size: cover;
+    background-position: center;
+}
+
+.coming-soon {
+    background: rgba(0,0,0,.85);
+    /* border-radius: 50% 0 0 50%; */
+}
+
