@@ -1,7 +1,14 @@
-/*!
-* Start Bootstrap - Coming Soon v6.0.7 (https://startbootstrap.com/theme/coming-soon)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-coming-soon/blob/master/LICENSE)
+/*
+This code is for the success message displayed after the user
+successfully enters a valid email address and clicks the
+'Notify Me' button.
 */
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+
+const form = document.querySelector('form');
+const successMessage = document.querySelector('#success-msg');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  successMessage.classList.add('show');
+  setTimeout(() => form.submit(), 5000);
+});

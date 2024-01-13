@@ -9,12 +9,21 @@
 }
 
 .logo {
-    width: auto;
-    height: auto;
+    width: 40%;
+    height: 40%;
 }
 
 .coming-soon-heading {
     font-family: 'Outfit', sans-serif;
     font-size: 3em;
     color: #bd1d2a;
+}
+
+/* For the success message */
+#success-msg {
+    display: none;
+}
+  
+#success-msg.show {
+    display: block;
 }

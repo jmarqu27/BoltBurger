@@ -1,16 +1,19 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bolt Burger | Coming Soon</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
     <link href="./resources/css/style.css" rel="stylesheet">
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="container-fluid ps-md-0">
         <div class="row g-0">
             <div class="bg-img d-none d-md-flex col-md-4 col-lg-6"></div>
@@ -18,12 +21,14 @@
                 <div class="coming-soon d-flex align-items-center py-5">
                     <div class="container">
                         <div class="row">
-                            <img class="logo img-fluid mx-auto" src="./resources/images/BoltBurger-atl-logo.png" alt="Bolt Burger logo">
+                            <img class="logo img-fluid mx-auto" src="./resources/images/BoltBurger-atl-logo.png"
+                                alt="Bolt Burger logo">
                         </div>
                         <div class="row">
                             <div class="col-md-9 col-lg-8 mx-auto">
                                 <div class="row">
-                                    <h1 class="coming-soon-heading text-center fw-bold mb-4">Our Restaurant is Coming Soon!</h1>
+                                    <h1 class="coming-soon-heading text-center fw-bold mb-4">Our Restaurant is Coming
+                                        Soon!</h1>
                                 </div>
                                 <div class="row">
                                     <div class="col">
@@ -34,16 +39,25 @@
                                         <p class="text-start text-light mb-4">Trenton, Portland</p>
                                     </div>
                                 </div>
-                                <p class="text-center text-light mb-4">Sign up to receive updates and be notified when we open!</p>
-                                
+                                <p class="text-center text-light mb-4">Sign up to receive updates and be notified when
+                                    we open!</p>
+
+                                <!-- Email address submit form -->
                                 <form>
                                     <div class="row form-floating">
-                                        <input type="email" class="col me-1 form-control" id="email-input"
+                                        <input type="email" class="form-control" id="email-input"
                                             placeholder="name@example.com">
                                         <label for="email-input">Email address</label>
-                                        <button class="col-auto btn btn-secondary btn-lg fw-bold fs-6" type="submit">NOTIFY ME!</button>
+                                        <button class="col btn btn-secondary btn-lg mx-auto my-3 fw-bold fs-6"
+                                            id="notify-btn" type="submit">NOTIFY ME!</button>
                                     </div>
                                 </form>
+
+                                <!-- Success message -->
+                                <div class="row"></div>
+                                <p class="text-light" id="success-msg">
+                                    Success! You're on the list!
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -51,7 +65,11 @@
             </div>
         </div>
     </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./js/scripts.js"></script>
+
+</body>
 </html>
